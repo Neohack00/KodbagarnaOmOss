@@ -190,3 +190,8 @@ div.row {
         margin: 0;
     }
 }
+.foot {
+    padding: 25px;
+    background-color: orange;
+    text-align: center;
+}
