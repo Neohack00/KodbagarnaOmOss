@@ -1,0 +1,29 @@
+{
+  "name": "anteckningar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agnes398/Kodbagarna-AnteckningsApplikation.git"
+  },
+  "author": "Kodbagarna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agnes398/Kodbagarna-AnteckningsApplikation/issues"
+  },
+  "homepage": "https://github.com/Agnes398/Kodbagarna-AnteckningsApplikation#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "heroku": "^7.35.0",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.12",
+    "node": "^13.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
