@@ -1,29 +1,27 @@
 {
-  "name": "anteckningar",
+  "name": "aboutus",
   "version": "1.0.0",
   "description": "",
   "main": "Server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.35.0",
+    "node": "^13.6.0",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Server.js"
+    "start": "node Server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agnes398/Kodbagarna-AnteckningsApplikation.git"
+    "url": "git+https://github.com/Neohack00/KodbagarnaOmOss.git"
   },
   "author": "Kodbagarna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Agnes398/Kodbagarna-AnteckningsApplikation/issues"
+    "url": "https://github.com/Neohack00/KodbagarnaOmOsss/issues"
   },
-  "homepage": "https://github.com/Agnes398/Kodbagarna-AnteckningsApplikation#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "heroku": "^7.35.0",
-    "mongodb": "^3.3.4",
-    "mongoose": "^5.7.12",
-    "node": "^13.1.0",
-    "nodemon": "^1.19.4"
-  }
+  "homepage": "https://github.com/Neohack00/KodbagarnaOmOsss#readme"
 }
