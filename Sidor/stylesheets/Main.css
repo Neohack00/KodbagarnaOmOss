@@ -16,8 +16,8 @@
     
 }
 
-.col-sm-8.column {
-    margin: 0;
+.col-sm-8 {
+    margin: 0 auto;
     margin-top: 30px;
     width: 100%;
     display: block;
@@ -29,21 +29,16 @@
 }
 
 .kodbagarnalogo{
-    vertical-align: middle;
-    border-style: none;
-    margin-left: 33%;
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 35%;
 }
 
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 100%;
+div.row {
     text-align: center;
 }
+
 
 @media only screen and (min-width: 400px){
     .kodbagarnalogo {
